@@ -250,7 +250,10 @@ p {
   margin: 0 0 2em 0;
 }
 
-h1,
+h1 {
+  color: #f17aca !important;
+  font-weight: 800;
+}
 h2 {
   color: #f17aca;
   font-weight: 800;
@@ -267,7 +270,10 @@ h6 {
   text-transform: uppercase;
 }
 
-h1 a,
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
 h2 a,
 h3 a,
 h4 a,
@@ -2446,7 +2452,7 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon:before {
-  font-size: 3.5em;
+  font-size: 1.5em;
 }
 
 /* Icons Grid */
