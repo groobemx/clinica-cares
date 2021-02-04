@@ -213,11 +213,12 @@
 					<header class="major">
 						<h2>Contáctanos</h2>
 					</header>
-					<!-- <form method="post" action="">
+					<form id="contact-form">
+						<input type="hidden"  name="contact_number">
 						<div class="row gtr-uniform">
-							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" /></div>
-							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-							<div class="col-12"><textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea></div>
+							<div class="col-6 col-12-xsmall"><input type="text" name="user_name" id="nombre" placeholder="Nombre" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="user_email" id="email" placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="mensaje" placeholder="Mensaje" rows="4"></textarea></div>
 							<div class="col-12">
 								<ul class="actions special">
 									<li><input type="submit" value="Enviar" class="primary" /></li>
@@ -225,8 +226,8 @@
 							</div>
 						</div>
 					
-					</form> -->
-					<form id="contact-form">
+					</form>
+					<!-- <form id="contact-form">
 						<input type="hidden"  name="contact_number">
 						<label>Nombre</label>
 						<input type="text"  id="nombre" name="user_name">
@@ -234,12 +235,13 @@
 						<input type="email" id="email" name="user_email">
 						<label>Mensaje</label>
 						<textarea id="mensaje" name="message"></textarea>
+						
 						<div class="col-12">
 							<ul class="actions special">
 								<li><input type="submit" value="Enviar" class="primary" /></li>
 							</ul>
 						</div>
-				</form>
+				</form> -->
 					<div>
 						<ul class="icons">
 							<li><a href="#" style= "color:rgb(155, 149, 152)" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
