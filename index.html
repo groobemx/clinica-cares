@@ -25,6 +25,8 @@
 					// generate a five digit number for the contact_number variable
 					this.contact_number.value = Math.random() * 100000 | 0;
 					// these IDs from the previous steps
+					if (document.getElementById("mensaje").value != "") {
+						
 					emailjs.sendForm('service_hhdz82h', 'template_xh0qrjd', this)
 							.then(function() {
 									alert('Tu mensaje ha sido enviado');
@@ -33,8 +35,10 @@
 									document.getElementById("mensaje").value="";
 							}, function(error) {
 									alert(' Ha sucedido un error , intenta de nuevo', error);
-							});
-			});
+							});			
+			}
+			else {alert('Escribe un mensaje');}
+		});
 	}
 </script>
 
@@ -118,7 +122,7 @@
 								<div class="glide__slides">
 							
 									<article class="glide__slide">
-									<img src="images/gina.jpeg" alt="" />
+									<img class="image fit " src="images/gina.jpeg" alt="" />
 									<header>
 										<h2>Dra.Georgina Carranza</h2>
 									</header>
@@ -128,7 +132,7 @@
 										</p>
 									</article>
 									<article class="glide__slide">
-									<img src="images/marco2.jpg" alt="" />
+									<img  class="image fit "src="images/marco2.jpg" alt="" />
 									<header>
 										<h2>Dr.Marco de Galicia</h2>
 									</header>
@@ -208,7 +212,7 @@
 	
 
 		<!-- Footer -->
-			<section id="footer">
+			<section id="footer" >
 				<div class="container">
 					<header class="major">
 						<h2>Contáctanos</h2>
