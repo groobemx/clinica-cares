@@ -27,9 +27,12 @@
 					// these IDs from the previous steps
 					emailjs.sendForm('service_hhdz82h', 'template_xh0qrjd', this)
 							.then(function() {
-									console.log('SUCCESS!');
+									alert('Tu mensaje ha sido enviado');
+									document.getElementById("nombre").value="";
+									document.getElementById("email").value="";
+									document.getElementById("mensaje").value="";
 							}, function(error) {
-									console.log('FAILED...', error);
+									alert(' Ha sucedido un error , intenta de nuevo', error);
 							});
 			});
 	}
@@ -224,14 +227,18 @@
 					
 					</form> -->
 					<form id="contact-form">
-						<input type="hidden" name="contact_number">
-						<label>Name</label>
-						<input type="text" name="user_name">
+						<input type="hidden"  name="contact_number">
+						<label>Nombre</label>
+						<input type="text"  id="nombre" name="user_name">
 						<label>Email</label>
-						<input type="email" name="user_email">
-						<label>Message</label>
-						<textarea name="message"></textarea>
-						<input type="submit" value="Send">
+						<input type="email" id="email" name="user_email">
+						<label>Mensaje</label>
+						<textarea id="mensaje" name="message"></textarea>
+						<div class="col-12">
+							<ul class="actions special">
+								<li><input type="submit" value="Enviar" class="primary" /></li>
+							</ul>
+						</div>
 				</form>
 					<div>
 						<ul class="icons">
