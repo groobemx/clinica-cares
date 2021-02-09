@@ -1,7 +1,7 @@
 .glide__arrow {
   position: absolute;
   display: block;
-  top: 50%;
+  top: 0%;
   z-index: 2;
   color: white;
   text-transform: uppercase;
@@ -15,7 +15,7 @@
   opacity: 1;
   cursor: pointer;
   transition: opacity 150ms ease, border 300ms ease-in-out;
-  transform: translateY(-50%);
+  transform: translateY(500%);
   line-height: 1;
 }
 .glide__arrow:focus {
@@ -35,13 +35,13 @@
 }
 .glide__bullets {
   position: absolute;
-  top: 55%;
+  top: 48%;
   z-index: 2;
   bottom: 2em;
   left: 50%;
   display: inline-flex;
   list-style: none;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
 }
 .glide__bullet {
   background-color: rgba(243, 135, 234, 0.5);
