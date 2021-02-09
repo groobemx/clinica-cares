@@ -7,10 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.lp {
-  width: 10px;
-  height: 10px;
-}
 html,
 body,
 div,
@@ -2353,8 +2349,8 @@ input[type='radio'] + label:before {
   width: auto;
   height: 100px;
   top: 5px;
-  position: absolute;
-  right: 780px;
+  position: relative;
+  /* right: 780px; */
 }
 
 .image:before {
@@ -2731,7 +2727,7 @@ input[type='reset']:hover,
 input[type='button']:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(144, 144, 144, 0.075);
+  background-color: rgba(216, 101, 182, 0.509);
   color: #61686b !important;
 }
 
