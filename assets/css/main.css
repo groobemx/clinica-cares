@@ -175,8 +175,8 @@ html {
 html {
   background-color: #313a3d;
   background-attachment: fixed, fixed;
-  background-image: url('images/overlay.png'), url('../../images/bg.jpg');
-  background-position: top left, center center;
+  background-image: url('images/overlay.png'), url('../../images/bg2.jpg');
+  background-position: auto;
   background-repeat: repeat, none;
   background-size: auto, cover;
 }
@@ -231,7 +231,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent !important;
-  color: #8cd1a8 !important;
+  color: #d855b5 !important;
   text-decoration: none;
 }
 
