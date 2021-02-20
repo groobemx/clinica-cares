@@ -251,11 +251,11 @@ p {
 }
 
 h1 {
-  color: #f17aca !important;
+  color: #90bdc1 !important;
   font-weight: 700;
 }
 h2 {
-  color: #f17aca;
+  color: #7af1dd;
   font-weight: 800;
 }
 h3,
@@ -2337,7 +2337,9 @@ input[type='radio'] + label:before {
 .icon.major:before {
   font-size: 2.5em;
 }
-
+.icon.major2:before {
+  font-size: 1.5em;
+}
 /* Image */
 
 .image {
@@ -2721,7 +2723,32 @@ button,
   text-transform: uppercase;
   white-space: nowrap;
 }
-
+.button2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #dddddd;
+  color: #61686b !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 3em;
+  letter-spacing: 0.05em;
+  line-height: 3.15em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover,
@@ -2786,7 +2813,7 @@ input[type='reset'].primary,
 input[type='button'].primary,
 button.primary,
 .button.primary {
-  background-color: #d484c7;
+  background-color: #3ab4bb;
   border: 0;
   box-shadow: none;
   color: #ffffff !important;
