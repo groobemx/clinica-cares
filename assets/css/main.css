@@ -255,7 +255,7 @@ h1 {
   font-weight: 700;
 }
 h2 {
-  color: #7af1dd;
+  color: #90bdc1;
   font-weight: 800;
 }
 h3,
@@ -2813,7 +2813,7 @@ input[type='reset'].primary,
 input[type='button'].primary,
 button.primary,
 .button.primary {
-  background-color: #3ab4bb;
+  background-color: #90bdc1;
   border: 0;
   box-shadow: none;
   color: #ffffff !important;
