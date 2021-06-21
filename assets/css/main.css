@@ -248,7 +248,6 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  color: #d855b5;
 }
 
 h1 {
@@ -2041,7 +2040,7 @@ article.special {
 }
 
 header p {
-  color: #a8b0b3;
+  color: #d855b5;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
