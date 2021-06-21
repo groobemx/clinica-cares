@@ -160,10 +160,6 @@ textarea {
   appearance: none;
 }
 
-.nosotros {
-  color: #d855b5;
-}
-
 /* Basic */
 
 html {
@@ -252,6 +248,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  color: #d855b5;
 }
 
 h1 {
