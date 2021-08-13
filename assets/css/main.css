@@ -2349,7 +2349,7 @@ input[type='radio'] + label:before {
 }
 .image.lp {
   width: auto;
-  height: 100px;
+  height: 200px;
   top: 5px;
   position: relative;
   /* right: 780px; */
